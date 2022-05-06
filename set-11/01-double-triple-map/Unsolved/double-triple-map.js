@@ -21,3 +21,8 @@ var doubleTripleMap = function (arr) {
 
   return updatedArr;
 };
+
+// Using ternary operator
+var doubleTripleMap = function (arr) {
+  return arr.map((num) => (num % 2 === 0 ? num * 2 : num * 3));
+};
